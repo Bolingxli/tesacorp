@@ -4,7 +4,7 @@ function User() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch("http://3.250.150.6:8000/user")
+    fetch("http://54.76.111.111:8000/user")
       .then((res) => res.json())
       .then((json) => {
         console.log(json);
